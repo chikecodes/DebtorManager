@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:background="@color/green">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="I Owe You"
+        android:textColor="@color/white"
+        android:id="@+id/iowe_you_button"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_rectangle_shape" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="You Owe You"
+        android:textColor="@color/white"
+        android:id="@+id/uowe_me_button"
+        android:background="@drawable/button_rectangle_shape" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment_i_owe_you"
+        android:name="com.kolocoda.debtormanager.YouOweMeListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.kolocoda.debtormanager.YouOweMeListFragment"
+        tools:layout="@android:layout/list_content" />
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#049741"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/footer_title_id"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#049741"/>
+
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/C:/Users/koloCoda/workspace/DebtorManager3/app/src/main/res/layout/activity_youoweme.xml -->

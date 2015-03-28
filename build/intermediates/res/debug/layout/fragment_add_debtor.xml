@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView android:text="@string/person_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle"
+        />
+     
+    <LinearLayout android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginBottom="8dp" >
+        
+	        <EditText android:id="@+id/debtor_name"
+	            android:layout_width="0dp"
+	            android:layout_weight="3"
+	            android:layout_height="wrap_content"
+	            android:hint="@string/debtor_name_hint" />
+	
+	        <ImageButton
+	            android:id="@+id/phone_contact_button"
+	            android:layout_width="30dp"
+	            android:contentDescription="@string/phone_contact_desc"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.33"
+	            android:paddingTop="5dp"
+	            android:background="@drawable/button_shape"
+	            android:src="@drawable/add_user" />
+        
+    	</LinearLayout>
+    
+	    <EditText android:id="@+id/debtor_phoneNumber"
+	        	android:inputType="phone"
+	        	android:layout_marginBottom="8dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:hint="@string/debtor_phoneNumber_hint" />
+	    
+	    <RadioGroup android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myRadioGroup"
+            android:checkedButton="@+id/you_owe_radioButton"
+            android:orientation="horizontal">
+            
+            <RadioButton android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/you_owe_radioButton"
+                android:text="@string/you_owe_text" />
+            
+            <RadioButton android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/i_owe_radioButton" 
+                android:text="@string/i_owe_text"
+                android:layout_marginLeft="56dp" />
+      </RadioGroup>
+    </LinearLayout>
+    
+ 	 <TextView android:text="@string/amount_textView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle"
+        />
+ 	 
+ 	 <LinearLayout android:layout_width="match_parent"
+ 	     android:layout_height="wrap_content"
+ 	     android:orientation="horizontal"
+ 	     android:padding="12dp">
+ 	     
+ 	     <EditText android:id="@+id/debt_amount"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="numberDecimal"
+	            android:hint="@string/amount_textView" />
+ 	 </LinearLayout>
+ 	 
+ 	 <TextView android:text="@string/date_to_be_paid_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle" />
+ 	 
+ 	 <LinearLayout android:layout_width="match_parent"
+ 	     android:layout_height="wrap_content"
+ 	     android:orientation="horizontal"
+ 	     android:padding="12dp">
+ 	     
+ 	     <Button
+ 	         android:id="@+id/date_to_be_paid"
+ 	         android:layout_width="match_parent"
+ 	         android:layout_height="wrap_content"
+ 	         android:background="@drawable/button_shape"
+ 	         android:text="@string/date_to_be_paid_button_text" />
+
+ 	 </LinearLayout>
+ 	 
+ 	 <TextView android:text="@string/note_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle" />
+
+ 	 <LinearLayout android:layout_width="match_parent"
+ 	     android:layout_height="wrap_content"
+ 	     android:orientation="horizontal"
+ 	     android:padding="12dp">
+ 	     
+ 	     <EditText
+	 	     android:id="@+id/note_editText"
+	 	     android:layout_width="match_parent"
+	 	     android:layout_height="wrap_content"
+	 	     android:ems="10"
+	 	     android:inputType="textMultiLine" >
+ 	 	</EditText>
+
+ 	 </LinearLayout>
+ 	 
+ 	 <LinearLayout android:layout_width="match_parent"
+ 	     android:layout_height="wrap_content"
+ 	     android:orientation="horizontal"
+ 	     android:padding="12dp">
+ 	     
+ 	    <Button
+ 	         android:id="@+id/save_button"
+ 	         android:layout_width="0dp"
+ 	         android:layout_weight="1"
+ 	         android:layout_height="wrap_content"
+ 	         android:layout_margin="12dp"
+ 	         android:background="@drawable/button_shape"
+ 	         android:text="@string/save_button_text" />
+ 	    
+ 	    <Button
+ 	         android:id="@+id/cancel_button"
+ 	         android:layout_width="0dp"
+ 	         android:layout_weight="1"
+ 	         android:layout_margin="12dp"
+ 	         android:layout_height="wrap_content"
+ 	         android:background="@drawable/button_cancel_shape"
+ 	         android:text="@string/cancel_button_text" />
+
+ 	 </LinearLayout>
+ 
+</LinearLayout>
+      
+</ScrollView>
+
+<!-- From: file:/C:/Users/koloCoda/workspace/DebtorManager3/app/src/main/res/layout/fragment_add_debtor.xml -->

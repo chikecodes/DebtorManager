@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/touch_selector"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/debtor_list_item_imageTextView"
+        android:layout_width="60dp"
+        android:background="@drawable/ic_action_person"
+        android:contentDescription="@string/imageView_contentDescription"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/debtor_list_item_nameTextView"
+        style="@style/ListItemStyle"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/debtor_list_item_imageTextView"/>
+
+    <TextView
+        android:id="@+id/debtor_list_item_dueDateTextView"
+        style="@style/ListItemStyle"
+        android:layout_alignBottom="@+id/debtor_list_item_imageTextView"
+        android:layout_alignLeft="@+id/debtor_list_item_nameTextView" />
+
+    <TextView
+        android:id="@+id/debtor_list_item_amountTextView"
+        style="@style/ListItemStyle"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/debtor_list_item_nameTextView"
+        android:textColor="#FF0000" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/koloCoda/workspace/DebtorManager3/app/src/main/res/layout/list_item_debtor.xml -->

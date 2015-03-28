@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Debtor Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="DebtsExpiringSoon_textView">Depts expiring soon</string>
+    <string name="my_deptor_title">MyDebtors</string>
+    <string name="i_owe_title">People I Owe</string>
+    <string name="imageView_contentDescription">Debtor\'s picture</string>
+    <string name="you_owe_me_title">You Owe Me</string>
+    <string name="total">Total: %1$s</string>
+    <string name="i_owe_you_desc">i owe you button image</string>
+    <string name="people_i_owe_title">People I Owe</string>
+    <string name="add_debt_details_title">Add Debt Details</string>
+    <string name="you_owe_me_desc">you owe button image</string>
+    <string name="home_title">MyDebts</string>
+    <string name="debtor_desc">The debtor picture</string>
+    <string name="amount_textView">Amount</string>
+    <string name="date_created_textView">Date Created</string>
+    <string name="date_due_textView">Date Due</string>
+    <string name="note_textView">Note</string>
+    <string name="person_textView">Person</string>
+    <string name="debtor_name_hint">Name</string>
+    <string name="debtor_phoneNumber_hint">Phone number</string>
+    <string name="delete_debtor">Delete Debtor</string>
+    <string name="i_owe_text">I owe</string>
+    <string name="date_to_be_paid_textView">Date to be paid</string>
+    <string name="you_owe_text">Owes me</string>
+    <string name="phone_contact_desc">phone contact icon</string>
+    <string name="date_to_be_paid_button_text">Select date</string>
+    <string name="save_button_text">Save</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="debtor_name_text">Debtor name</string>
+    <string name="new_debtor">New Debtor</string>
+    <string name="date_picker_title">Date due:</string>
+    <string name="edit_debtor">Edit Debtor</string>
+    <string name="title_activity_iowe_you_list">IOweYouListActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_or_edit_debtor">AddOrEditDebtorActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_you_owe_me_list">You Owe Me</string>
+</resources>

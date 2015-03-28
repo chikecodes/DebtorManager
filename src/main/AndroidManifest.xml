@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kolocoda.debtormanager" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IOweYouListActivity"
+            android:label="@string/title_activity_iowe_you_list"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kolocoda.debtormanager.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddOrEditDebtorActivity"
+            android:label="@string/title_activity_add_or_edit_debtor"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kolocoda.debtormanager.MainActivity" />
+        </activity>
+
+        <provider
+            android:name=".db.DebtorManagerContentProvider"
+            android:authorities="com.kolocoda.debtormanager"
+            android:enabled="true"
+            android:exported="true" >
+        </provider>
+
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kolocoda.debtormanager.MainActivity" />
+        </activity>
+        <activity
+            android:name=".YouOweMeListActivity"
+            android:label="@string/title_activity_you_owe_me_list" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kolocoda.debtormanager.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

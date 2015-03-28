@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color>
+    <color name="orange">#C37012</color>
+    <color name="orange_pressed">#773F00</color>
+    <color name="blue">#105B7B</color>
+    <color name="blue_pressed">#02354B</color>
+    <color name="black">#000000</color>
+    <color name="green">#0D8C40</color>
+    <color name="white">#fff</color>
+    <color name="list_item_title">#000</color>
+    <color name="list_background">#fff</color>
+    <color name="list_background_pressed">#0D8C40</color>
+    <color name="list_divider">#3FBA71</color>
+    <color name="light_green">#94E4B4</color>
+</resources>

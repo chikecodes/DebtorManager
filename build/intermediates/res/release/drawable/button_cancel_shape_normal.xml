@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    
+    <corners android:radius="3dp"/>
+    
+    <gradient android:angle="90" 
+        android:startColor="#738a46"
+        android:endColor="#75933a"/>
+    
+
+</shape>
+<!-- From: file:/C:/Users/koloCoda/workspace/DebtorManager3/app/src/main/res/drawable/button_cancel_shape_normal.xml -->
