@@ -8,4 +8,4 @@ Android app to store and analyze money lend or borrowed from your friends/contac
 <br/>
 <b>Add Debtor</b>
 <br/>
-<a href='http://postimg.org/image/5spll0tcz/' target='_blank'><img src='http://s5.postimg.org/5spll0tcz/Screenshot_2015_05_05_23_17_03.jpg' border='0' alt="Screenshot 2015 05 05 23 17 03" /></a>
+https://goo.gl/photos/TedqKHn1CG6TQ4Bm6
