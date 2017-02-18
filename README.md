@@ -1,7 +1,4 @@
 # DebtorManager
 
-Android app to store and analyze money lend or borrowed from your friends/contacts
-<br/>
-<b>Home Screen</b>
-<br/>
-<!--![home screen](http://raw.github.com/kolocoda/DebtorManager/master/mockups_apk_problemDesc_selfEva/IMG_20150326_174320.jpg "Optional title")-->
+Android app to store and analyze money lend or borrowed from your friends/contacts. 
+For my Udacity Android fundamentals certification - Android Apps: Android Fundamentals 
